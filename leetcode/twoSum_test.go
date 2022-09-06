@@ -27,7 +27,7 @@ func TestHelloName(t *testing.T) {
 		fmt.Printf("正在执行第 %d 个测试用例\n", i+1)
 		fmt.Printf("nums: %v , target: %v ==> %v \n", testCase.Input.Nums, testCase.Input.Target, testCase.Output)
 
-		result := twoSum()
+		result := twoSum(testCase.Input.Nums, testCase.Input.Target)
 		if !reflect.DeepEqual(result, testCase.Output) {
 			t.Errorf("期望 %v, 结果 %v", testCase.Output, result)
 		}
