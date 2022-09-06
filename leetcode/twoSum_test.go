@@ -17,7 +17,7 @@ type TwoSumCast struct {
 	Output []int
 }
 
-func TestHelloName(t *testing.T) {
+func TestTwoSum(t *testing.T) {
 	content, _ := os.ReadFile("./cases.json")
 
 	var payload []TwoSumCast
