@@ -1,4 +1,7 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "jest.autoRun": "off"
+  "jest.autoRun": "off",
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  }
 }
