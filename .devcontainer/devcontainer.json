@@ -16,7 +16,7 @@
         "go.gopath": "/go"
       },
       // Add the IDs of extensions you want installed when the container is created.
-      "extensions": ["golang.Go", "esbenp.prettier-vscode"]
+      "extensions": ["golang.Go", "esbenp.prettier-vscode", "orta.vscode-jest"]
     }
   },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
