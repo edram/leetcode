@@ -1,0 +1,5 @@
+[
+  { "input": "ABC", "output": 10 },
+  { "input": "ABA", "output": 8 },
+  { "input": "LEETCODE", "output": 92 }
+]

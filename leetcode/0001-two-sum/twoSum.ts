@@ -3,7 +3,7 @@ function twoSum(nums: number[], target: number): number[] {
   let value: number[] = [];
 
   for (let index = 0; index < nums.length; index++) {
-    const num = nums[index];
+    const num = nums[index]!;
     const matchNum = target - num;
 
     const matchNumIndex = valueIndexMap.get(matchNum);
