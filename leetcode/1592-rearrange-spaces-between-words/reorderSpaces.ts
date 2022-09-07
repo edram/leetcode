@@ -7,8 +7,8 @@ function reorderSpaces(text: string): string {
     return `${words.join("")}${" ".repeat(spaceCount)}`;
   }
 
-  const betweenSpaceCount = Math.floor(spaceCount / (words.length - 1));
-  const restSpace = spaceCount % (words.length - 1);
+  const betweenSpaceCount = Math.floor(spaceCount / (wordsCount- 1));
+  const restSpace = spaceCount % (wordsCount- 1);
 
   return `${words.join(" ".repeat(betweenSpaceCount))}${" ".repeat(restSpace)}`;
 }
