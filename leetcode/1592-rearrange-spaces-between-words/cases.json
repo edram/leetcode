@@ -1,0 +1,14 @@
+[
+  { "input": " hello", "output": "hello " },
+  { "input": "  this   is  a sentence ", "output": "this   is   a   sentence" },
+  {
+    "input": " practice   makes   perfect",
+    "output": "practice   makes   perfect "
+  },
+  { "input": "hello   world", "output": "hello   world" },
+  {
+    "input": "  walks  udp package   into  bar a",
+    "output": "walks  udp  package  into  bar  a "
+  },
+  { "input": "a", "output": "a" }
+]
