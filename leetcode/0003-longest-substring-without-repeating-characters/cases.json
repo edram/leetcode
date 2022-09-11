@@ -1,0 +1,6 @@
+[
+  { "input": "abcdbe", "output": 4 },
+  { "input": "bbbbb", "output": 1 },
+  { "input": "pwwkew", "output": 3 },
+  { "input": "dvdf", "output": 3 }
+]
