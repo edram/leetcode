@@ -1,10 +1,11 @@
 package leetcode
 
 import (
-	"encoding/json"
 	"fmt"
-	"os"
+	"path/filepath"
 	"testing"
+
+	"github.com/edram/leetcode/util"
 )
 
 type UniqueLetterStringCase struct {
@@ -14,12 +15,13 @@ type UniqueLetterStringCase struct {
 }
 
 func TestUniqueLetterString(t *testing.T) {
-	content, _ := os.ReadFile("./cases.json")
+	var casePath, _ = filepath.Abs("./cases.json")
+	payload, err := util.LoadCases[[]UniqueLetterStringCase](casePath)
+	if err != nil {
+		panic(err)
+	}
 
-	var payload []UniqueLetterStringCase
-	_ = json.Unmarshal(content, &payload)
-
-	for i, testCase := range payload {
+	for i, testCase := range *payload {
 		fmt.Printf("正在执行第 %d 个测试用例\n", i+1)
 		fmt.Printf("nums: %v ==> %v \n", testCase.Input, testCase.Output)
 

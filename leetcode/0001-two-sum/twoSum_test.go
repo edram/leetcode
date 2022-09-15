@@ -4,8 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"path/filepath"
 	"reflect"
 	"testing"
+
+	"github.com/edram/leetcode/util"
 )
 
 type TwoSumCast struct {
@@ -20,10 +23,14 @@ type TwoSumCast struct {
 func TestTwoSum(t *testing.T) {
 	content, _ := os.ReadFile("./cases.json")
 
-	var payload []TwoSumCast
+	var casePath, _ = filepath.Abs("./cases.json")
+	payload, err := util.LoadCases[[]TwoSumCast](casePath)
+	if err != nil {
+		panic(err)
+	}
 	_ = json.Unmarshal(content, &payload)
 
-	for i, testCase := range payload {
+	for i, testCase := range *payload {
 		fmt.Printf("正在执行第 %d 个测试用例\n", i+1)
 		fmt.Printf("nums: %v , target: %v ==> %v \n", testCase.Input.Nums, testCase.Input.Target, testCase.Output)
 
