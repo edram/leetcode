@@ -1,5 +1,5 @@
 {
-  "name": "Go",
+  "name": "edram/leetcode",
   "build": {
     "dockerfile": "Dockerfile",
     "args": {}
