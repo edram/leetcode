@@ -20,3 +20,10 @@ RUN bash /tmp/library-scripts/common-debian.sh "${INSTALL_ZSH}" "${USERNAME}" "$
 # Install Go tools
 RUN bash /tmp/library-scripts/go-debian.sh "none" "/usr/local/go" "${GOPATH}" "${USERNAME}" "false" \
     && apt-get clean -y && rm -rf /var/lib/apt/lists/*
+
+# Setup default python tools in a venv via pipx to avoid conflicts
+ENV PIPX_HOME=/usr/local/py-utils \
+    PIPX_BIN_DIR=/usr/local/py-utils/bin
+ENV PATH=${PATH}:${PIPX_BIN_DIR}
+RUN bash /tmp/library-scripts/python-debian.sh "none" "/usr/local" "${PIPX_HOME}" "${USERNAME}" \
+    && apt-get clean -y && rm -rf /var/lib/apt/lists/*

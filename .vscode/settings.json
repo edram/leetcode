@@ -8,4 +8,7 @@
     "editor.defaultFormatter": "ms-python.python"
   },
   "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [
+    "-s"
+  ],
 }
