@@ -1,0 +1,6 @@
+[
+  { "input": { "num1": "11", "num2": "123" }, "output": "134" },
+  { "input": { "num1": "456", "num2": "77" }, "output": "533" },
+  { "input": { "num1": "0", "num2": "0" }, "output": "0" },
+  { "input": { "num1": "9", "num2": "1" }, "output": "10" }
+]
