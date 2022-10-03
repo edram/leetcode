@@ -1,0 +1,4 @@
+[
+  { "input": "1001", "output": false },
+  { "input": "110", "output": true }
+]
