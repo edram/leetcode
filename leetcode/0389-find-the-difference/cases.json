@@ -1,0 +1,5 @@
+[
+  { "input": { "s": "abcd", "t": "abcde" }, "output": "e" },
+  { "input": { "s": "", "t": "y" }, "output": "y" },
+  { "input": { "s": "ab", "t": "aab" }, "output": "a" }
+]
