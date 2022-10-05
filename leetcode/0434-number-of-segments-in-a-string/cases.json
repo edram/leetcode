@@ -1,0 +1,4 @@
+[
+  { "input": "Hello, my name is John", "output": 5 },
+  { "input": "Hello   world", "output": 2 }
+]
