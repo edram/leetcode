@@ -11,4 +11,7 @@
   "python.testing.pytestArgs": [
     "-s"
   ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
