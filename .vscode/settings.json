@@ -1,17 +1,3 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "jest.autoRun": "off",
-  "[go]": {
-    "editor.defaultFormatter": "golang.go"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
-  "python.testing.pytestEnabled": true,
-  "python.testing.pytestArgs": [
-    "-s"
-  ],
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "mypy-type-checker.args": [],
 }
