@@ -4,7 +4,7 @@ COPY --from=golang:1.21 /usr/local/go/ /usr/local/go/
 ## nodejs
 COPY --from=node:20.10 /usr/local/lib/node_modules /usr/local/lib/node_modules
 COPY --from=node:20.10 /usr/local/bin /usr/local/bin/
-RUN rm -rf /usr/local/bin/yarn*
+RUN corepack enable pnpm
 ## python
 COPY --from=python:3.11 /usr/local /usr/local
 RUN ldconfig
