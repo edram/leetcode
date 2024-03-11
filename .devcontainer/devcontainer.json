@@ -33,10 +33,10 @@
       },
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        "golang.Go",
         "esbenp.prettier-vscode",
-        "orta.vscode-jest",
         "editorconfig.editorconfig",
+        "vitest.explorer",
+        "golang.Go",
         "ms-python.python",
         "ms-python.vscode-pylance"
       ]
