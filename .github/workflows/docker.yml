@@ -13,9 +13,6 @@ jobs:
           - context: .
             file: Dockerfile
             tag: latest
-          - context: ./.devcontainer
-            file: ./.devcontainer/base.Dockerfile
-            tag: vscode
 
     steps:
       - name: Checkout

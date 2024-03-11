@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM buildpack-deps:bookworm-scm
 
 COPY --from=golang:1.21 /usr/local/go/ /usr/local/go/
 ## nodejs

@@ -1,1 +1,1 @@
-FROM edramkai/leetcode:vscode
+FROM edramkai/leetcode
