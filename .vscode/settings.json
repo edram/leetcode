@@ -1,3 +1,5 @@
 {
-  "mypy-type-checker.args": [],
+  "python.testing.pytestArgs": ["."],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }
