@@ -8,7 +8,7 @@ RUN corepack enable pnpm
 ## python
 COPY --from=python:3.11 /usr/local /usr/local
 RUN ldconfig
-
+RUN pip install pytest
 
 ENV GO111MODULE=on
 ENV GOPROXY=https://goproxy.cn,direct
