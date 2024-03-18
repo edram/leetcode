@@ -25,7 +25,8 @@
         "vitest.explorer",
         "golang.Go",
         "ms-python.python",
-        "ms-python.vscode-pylance"
+        "ms-python.vscode-pylance",
+        "rust-lang.rust-analyzer"
       ]
     }
   }
