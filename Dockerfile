@@ -22,3 +22,6 @@ ENV RUST_VERSION=1.74.1
 
 ## 配置
 ENV PATH="/usr/local/go/bin:/usr/local/cargo/bin:${PATH}"
+
+## rust
+RUN rustup component add rustfmt
