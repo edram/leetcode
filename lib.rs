@@ -1,7 +1,8 @@
+pub mod util;
+
 pub mod leetcode {
   #[path = "0000-add/add.rs"]
   pub mod add;
-
 
   #[cfg(test)]
   #[path = ""]

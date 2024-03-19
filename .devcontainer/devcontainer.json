@@ -26,7 +26,9 @@
         "golang.Go",
         "ms-python.python",
         "ms-python.vscode-pylance",
-        "rust-lang.rust-analyzer"
+        "rust-lang.rust-analyzer",
+        "Swellaby.vscode-rust-test-adapter",
+        "vadimcn.vscode-lldb"
       ]
     }
   }
