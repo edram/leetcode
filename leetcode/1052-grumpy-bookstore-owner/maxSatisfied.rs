@@ -11,12 +11,11 @@ impl Solution {
         }
 
         let mut increase = 0;
-        let mut max_increase = 0;
 
         for i in 0..minutes as usize {
             increase = increase + customers[i] * grumpy[i]
         }
-        max_increase = increase;
+        let mut max_increase = increase;
 
         for i in minutes..customers.len() as i32 {
             increase = increase
