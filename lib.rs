@@ -17,20 +17,25 @@ pub mod leetcode {
     #[path = "2097-watering-plants/wateringPlants.rs"]
     pub mod watering_plants;
 
+    #[path = "2105-watering-plants-ii/minimumRefill.rs"]
+    pub mod minimum_refill;
+
     #[cfg(test)]
     #[path = ""]
     mod rust {
         #[path = "0000-add/add_test.rs"]
         mod add_test;
-        #[path = "0001-two-sum/twoSum_test.rs"]
-        mod test_tow_sum;
         #[path = "1052-grumpy-bookstore-owner/maxSatisfied_test.rs"]
         mod test_max_satisfied;
+        #[path = "0001-two-sum/twoSum_test.rs"]
+        mod test_tow_sum;
 
         #[path = "2798-number-of-employees-who-met-the-target/numberOfEmployeesWhoMetTarget_test.rs"]
         mod test_number_of_employees_who_met_the_target;
 
         #[path = "2097-watering-plants/wateringPlants_test.rs"]
         mod test_watering_plants;
+        #[path = "2105-watering-plants-ii/minimumRefill_test.rs"]
+        mod test_minimum_refill;
     }
 }
