@@ -1,0 +1,10 @@
+[
+  {
+    "input": { "plants": [2, 2, 3, 3], "capacity": 5 },
+    "output": 14
+  },
+  {
+    "input": { "plants": [1, 1, 1, 4, 2, 3], "capacity": 4 },
+    "output": 30
+  }
+]

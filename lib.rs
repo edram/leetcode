@@ -14,6 +14,9 @@ pub mod leetcode {
     #[path = "2798-number-of-employees-who-met-the-target/numberOfEmployeesWhoMetTarget.rs"]
     pub mod number_of_employees_who_met_target;
 
+    #[path = "2097-watering-plants/wateringPlants.rs"]
+    pub mod watering_plants;
+
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -26,5 +29,8 @@ pub mod leetcode {
 
         #[path = "2798-number-of-employees-who-met-the-target/numberOfEmployeesWhoMetTarget_test.rs"]
         mod test_number_of_employees_who_met_the_target;
+
+        #[path = "2097-watering-plants/wateringPlants_test.rs"]
+        mod test_watering_plants;
     }
 }
