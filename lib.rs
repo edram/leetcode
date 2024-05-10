@@ -20,6 +20,9 @@ pub mod leetcode {
     #[path = "2105-watering-plants-ii/minimumRefill.rs"]
     pub mod minimum_refill;
 
+    #[path = "2960-count-tested-devices-after-test-operations/countTestedDevices.rs"]
+    pub mod count_tested_devices;
+
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -37,5 +40,8 @@ pub mod leetcode {
         mod test_watering_plants;
         #[path = "2105-watering-plants-ii/minimumRefill_test.rs"]
         mod test_minimum_refill;
+
+        #[path = "2960-count-tested-devices-after-test-operations/countTestedDevices_test.rs"]
+        mod test_count_tested_devices;
     }
 }
