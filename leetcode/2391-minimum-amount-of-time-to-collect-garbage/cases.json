@@ -1,0 +1,10 @@
+[
+  {
+    "input": { "garbage": ["G", "P", "GP", "GG"], "travel": [2, 4, 3] },
+    "output": 21
+  },
+  {
+    "input": { "garbage": ["MMM", "PGM", "GP"], "travel": [3, 10] },
+    "output": 37
+  }
+]
