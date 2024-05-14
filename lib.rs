@@ -24,6 +24,8 @@ pub mod leetcode {
     #[path = "2391-minimum-amount-of-time-to-collect-garbage/garbageCollection.rs"]
     pub mod garbage_collection;
 
+    #[path = "2244-minimum-rounds-to-complete-all-tasks/minimumRounds.rs"]
+    pub mod minimum_rounds;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -44,5 +46,7 @@ pub mod leetcode {
         mod test_count_tested_devices;
         #[path = "2391-minimum-amount-of-time-to-collect-garbage/garbageCollection_test.rs"]
         mod test_garbage_collection;
+        #[path = "2244-minimum-rounds-to-complete-all-tasks/minimumRounds_test.rs"]
+        mod test_minimum_rounds;
     }
 }
