@@ -26,6 +26,8 @@ pub mod leetcode {
 
     #[path = "2244-minimum-rounds-to-complete-all-tasks/minimumRounds.rs"]
     pub mod minimum_rounds;
+    #[path = "1953-maximum-number-of-weeks-for-which-you-can-work/numberOfWeeks.rs"]
+    pub mod number_of_weeks;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -48,5 +50,7 @@ pub mod leetcode {
         mod test_garbage_collection;
         #[path = "2244-minimum-rounds-to-complete-all-tasks/minimumRounds_test.rs"]
         mod test_minimum_rounds;
+        #[path = "1953-maximum-number-of-weeks-for-which-you-can-work/numberOfWeeks_test.rs"]
+        pub mod test_number_of_weeks;
     }
 }
