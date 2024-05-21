@@ -28,6 +28,9 @@ pub mod leetcode {
     pub mod minimum_rounds;
     #[path = "1953-maximum-number-of-weeks-for-which-you-can-work/numberOfWeeks.rs"]
     pub mod number_of_weeks;
+
+    #[path = "2769-find-the-maximum-achievable-number/theMaximumAchievableX.rs"]
+    pub mod the_maximum_achievable_x;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -52,5 +55,7 @@ pub mod leetcode {
         mod test_minimum_rounds;
         #[path = "1953-maximum-number-of-weeks-for-which-you-can-work/numberOfWeeks_test.rs"]
         pub mod test_number_of_weeks;
+        #[path = "2769-find-the-maximum-achievable-number/theMaximumAchievableX_test.rs"]
+        pub mod test_the_maximum_achievable_x;
     }
 }

@@ -1,0 +1,10 @@
+[
+  {
+    "input": { "num": 4, "t": 1 },
+    "output": 6
+  },
+  {
+    "input": { "num": 3, "t": 2 },
+    "output": 7
+  }
+]
