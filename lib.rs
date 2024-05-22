@@ -18,6 +18,9 @@ pub mod leetcode {
     #[path = "2105-watering-plants-ii/minimumRefill.rs"]
     pub mod minimum_refill;
 
+    #[path = "2225-find-players-with-zero-or-one-losses/findWinners.rs"]
+    pub mod find_winners;
+
     #[path = "2244-minimum-rounds-to-complete-all-tasks/minimumRounds.rs"]
     pub mod minimum_rounds;
 
@@ -50,6 +53,9 @@ pub mod leetcode {
 
         #[path = "2105-watering-plants-ii/minimumRefill_test.rs"]
         mod test_minimum_refill;
+
+        #[path = "2225-find-players-with-zero-or-one-losses/findWinners_test.rs"]
+        pub mod test_find_winners;
 
         #[path = "2244-minimum-rounds-to-complete-all-tasks/minimumRounds_test.rs"]
         mod test_minimum_rounds;
