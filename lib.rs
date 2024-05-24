@@ -9,6 +9,9 @@ pub mod leetcode {
     #[path = "1052-grumpy-bookstore-owner/maxSatisfied.rs"]
     pub mod max_satisfied;
 
+    #[path = "1673-find-the-most-competitive-subsequence/mostCompetitive.rs"]
+    pub mod most_competitive;
+
     #[path = "1953-maximum-number-of-weeks-for-which-you-can-work/numberOfWeeks.rs"]
     pub mod number_of_weeks;
 
@@ -44,6 +47,9 @@ pub mod leetcode {
 
         #[path = "1052-grumpy-bookstore-owner/maxSatisfied_test.rs"]
         mod test_max_satisfied;
+
+        #[path = "1673-find-the-most-competitive-subsequence/mostCompetitive_test.rs"]
+        pub mod test_most_competitive;
 
         #[path = "1953-maximum-number-of-weeks-for-which-you-can-work/numberOfWeeks_test.rs"]
         pub mod test_number_of_weeks;
