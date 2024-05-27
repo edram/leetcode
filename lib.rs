@@ -18,6 +18,9 @@ pub mod leetcode {
     #[path = "2097-watering-plants/wateringPlants.rs"]
     pub mod watering_plants;
 
+    #[path = "2028-find-missing-observations/missingRolls.rs"]
+    mod missing_rolls;
+
     #[path = "2105-watering-plants-ii/minimumRefill.rs"]
     pub mod minimum_refill;
 
@@ -53,6 +56,9 @@ pub mod leetcode {
 
         #[path = "1953-maximum-number-of-weeks-for-which-you-can-work/numberOfWeeks_test.rs"]
         pub mod test_number_of_weeks;
+
+        #[path = "2028-find-missing-observations/missingRolls_test.rs"]
+        mod test_missing_rolls;
 
         #[path = "2097-watering-plants/wateringPlants_test.rs"]
         mod test_watering_plants;
