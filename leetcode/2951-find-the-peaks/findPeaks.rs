@@ -4,7 +4,7 @@ impl Solution {
     pub fn find_peaks(mountain: Vec<i32>) -> Vec<i32> {
         let mut peaks: Vec<i32> = Vec::new();
 
-        for index in 1..mountain.len() {
+        for index in 1..mountain.len() - 1 {
             let item = mountain[index];
 
             if item > mountain[index - 1] && item > mountain[index + 1] {
