@@ -39,6 +39,9 @@ pub mod leetcode {
     #[path = "2798-number-of-employees-who-met-the-target/numberOfEmployeesWhoMetTarget.rs"]
     pub mod number_of_employees_who_met_target;
 
+    #[path = "2951-find-the-peaks/findPeaks.rs"]
+    pub mod find_peaks;
+
     #[path = "2960-count-tested-devices-after-test-operations/countTestedDevices.rs"]
     pub mod count_tested_devices;
 
@@ -80,6 +83,9 @@ pub mod leetcode {
 
         #[path = "2798-number-of-employees-who-met-the-target/numberOfEmployeesWhoMetTarget_test.rs"]
         mod test_number_of_employees_who_met_the_target;
+
+        #[path = "2951-find-the-peaks/findPeaks_test.rs"]
+        pub mod test_find_peaks;
 
         #[path = "2960-count-tested-devices-after-test-operations/countTestedDevices_test.rs"]
         mod test_count_tested_devices;
