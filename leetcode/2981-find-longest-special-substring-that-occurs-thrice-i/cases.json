@@ -1,0 +1,14 @@
+[
+  {
+    "input": "aaaa",
+    "output": 2
+  },
+  {
+    "input": "abcdef",
+    "output": -1
+  },
+  {
+    "input": "abcaba",
+    "output": 1
+  }
+]
