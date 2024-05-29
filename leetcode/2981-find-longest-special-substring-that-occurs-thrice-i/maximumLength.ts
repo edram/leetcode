@@ -27,12 +27,6 @@ function maximumLength(s: string): number {
     if (letterLengths.length >= 3) {
       length = Math.max(length, letterLengths[2]);
     }
-    if (letterLengths.length == 1) {
-      length = Math.max(length, letterLengths[0] - 2);
-    }
-    if (letterLengths.length == 2) {
-      length = Math.max(length, letterLengths[1] - 1);
-    }
   }
 
   return length;

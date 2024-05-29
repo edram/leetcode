@@ -10,5 +10,9 @@
   {
     "input": "abcaba",
     "output": 1
+  },
+  {
+    "input": "acc",
+    "output": -1
   }
 ]
