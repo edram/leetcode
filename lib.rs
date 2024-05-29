@@ -45,6 +45,8 @@ pub mod leetcode {
     #[path = "2960-count-tested-devices-after-test-operations/countTestedDevices.rs"]
     pub mod count_tested_devices;
 
+    #[path = "2981-find-longest-special-substring-that-occurs-thrice-i/maximumLength.rs"]
+    pub mod maximum_length;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -89,5 +91,8 @@ pub mod leetcode {
 
         #[path = "2960-count-tested-devices-after-test-operations/countTestedDevices_test.rs"]
         mod test_count_tested_devices;
+
+        #[path = "2981-find-longest-special-substring-that-occurs-thrice-i/maximumLength_test.rs"]
+        pub mod test_maximum_length;
     }
 }
