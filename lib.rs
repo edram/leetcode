@@ -50,6 +50,9 @@ pub mod leetcode {
 
     #[path = "2981-find-longest-special-substring-that-occurs-thrice-i/maximumLength.rs"]
     pub mod maximum_length;
+
+    #[path = "3038-maximum-number-of-operations-with-the-same-score-i/maxOperations.rs"]
+    pub mod max_operations;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -100,5 +103,8 @@ pub mod leetcode {
 
         #[path = "2981-find-longest-special-substring-that-occurs-thrice-i/maximumLength_test.rs"]
         pub mod test_maximum_length;
+
+        #[path = "3038-maximum-number-of-operations-with-the-same-score-i/maxOperations_test.rs"]
+        pub mod test_max_operations;
     }
 }
