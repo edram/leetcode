@@ -4,7 +4,7 @@ function maxOperations(nums: number[]): number {
 
   for (let index = 2; index < nums.length - 1; index = index + 2) {
     if (nums[index] + nums[index + 1] != sum) {
-      continue;
+      break;
     }
     times++;
   }
