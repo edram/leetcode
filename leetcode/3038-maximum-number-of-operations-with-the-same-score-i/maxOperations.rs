@@ -5,7 +5,7 @@ impl Solution {
         let mut times = 1;
         let sum = nums[0] + nums[1];
 
-        for index in 2..(nums.len() - 1) {
+        for index in (2..(nums.len() - 1)).step_by(2) {
             if nums[index] + nums[index + 1] != sum {
                 break;
             }
