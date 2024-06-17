@@ -1,0 +1,14 @@
+[
+  {
+    "input": { "a": "aba", "b": "cdc" },
+    "output": 3
+  },
+  {
+    "input": { "a": "aaa", "b": "bbb" },
+    "output": 3
+  },
+  {
+    "input": { "a": "aaa", "b": "aaa" },
+    "output": -1
+  }
+]

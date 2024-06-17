@@ -6,11 +6,14 @@ pub mod leetcode {
     #[path = "0001-two-sum/twoSum.rs"]
     pub mod two_sum;
 
-    #[path = "1052-grumpy-bookstore-owner/maxSatisfied.rs"]
-    pub mod max_satisfied;
+    #[path = "0521-longest-uncommon-subsequence-i/findLUSlength.rs"]
+    pub mod find_lu_slength;
 
     #[path = "0881-boats-to-save-people/numRescueBoats.rs"]
     pub mod num_rescue_boats;
+
+    #[path = "1052-grumpy-bookstore-owner/maxSatisfied.rs"]
+    pub mod max_satisfied;
 
     #[path = "1673-find-the-most-competitive-subsequence/mostCompetitive.rs"]
     pub mod most_competitive;
@@ -64,6 +67,9 @@ pub mod leetcode {
     mod rust {
         #[path = "0001-two-sum/twoSum_test.rs"]
         mod test_tow_sum;
+
+        #[path = "0521-longest-uncommon-subsequence-i/findLUSlength_test.rs"]
+        pub mod test_find_lu_slength;
 
         #[path = "0881-boats-to-save-people/numRescueBoats_test.rs"]
         pub mod test_num_rescue_boats;
