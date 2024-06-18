@@ -36,6 +36,9 @@ pub mod leetcode {
     #[path = "2244-minimum-rounds-to-complete-all-tasks/minimumRounds.rs"]
     pub mod minimum_rounds;
 
+    #[path = "2288-apply-discount-to-prices/discountPrices.rs"]
+    mod discount_prices;
+
     #[path = "2391-minimum-amount-of-time-to-collect-garbage/garbageCollection.rs"]
     pub mod garbage_collection;
 
@@ -97,6 +100,9 @@ pub mod leetcode {
 
         #[path = "2244-minimum-rounds-to-complete-all-tasks/minimumRounds_test.rs"]
         mod test_minimum_rounds;
+
+        #[path = "2288-apply-discount-to-prices/discountPrices_test.rs"]
+        mod test_discount_prices;
 
         #[path = "2391-minimum-amount-of-time-to-collect-garbage/garbageCollection_test.rs"]
         mod test_garbage_collection;
