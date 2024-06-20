@@ -42,6 +42,9 @@ pub mod leetcode {
     #[path = "2391-minimum-amount-of-time-to-collect-garbage/garbageCollection.rs"]
     pub mod garbage_collection;
 
+    #[path = "2748-number-of-beautiful-pairs/countBeautifulPairs.rs"]
+    pub mod the_count_beautiful_pairs;
+
     #[path = "2769-find-the-maximum-achievable-number/theMaximumAchievableX.rs"]
     pub mod the_maximum_achievable_x;
 
@@ -106,6 +109,9 @@ pub mod leetcode {
 
         #[path = "2391-minimum-amount-of-time-to-collect-garbage/garbageCollection_test.rs"]
         mod test_garbage_collection;
+
+        #[path = "2748-number-of-beautiful-pairs/countBeautifulPairs_test.rs"]
+        pub mod the_count_beautiful_pairs;
 
         #[path = "2769-find-the-maximum-achievable-number/theMaximumAchievableX_test.rs"]
         pub mod test_the_maximum_achievable_x;
