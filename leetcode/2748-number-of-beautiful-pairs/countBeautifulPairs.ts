@@ -8,7 +8,7 @@ function countBeautifulPairs(nums: number[]): number {
 
   for (let i = 0; i < length; i++) {
     let first = nums[i];
-    while (first > 10) {
+    while (first >= 10) {
       first = Math.floor(first / 10);
     }
     for (let j = i + 1; j < length; j++) {
