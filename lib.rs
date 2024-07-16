@@ -60,6 +60,9 @@ pub mod leetcode {
     #[path = "2951-find-the-peaks/findPeaks.rs"]
     pub mod find_peaks;
 
+    #[path = "2956-find-common-elements-between-two-arrays/findIntersectionValues.rs"]
+    pub mod find_intersection_values;
+
     #[path = "2960-count-tested-devices-after-test-operations/countTestedDevices.rs"]
     pub mod count_tested_devices;
 
@@ -127,6 +130,9 @@ pub mod leetcode {
 
         #[path = "2951-find-the-peaks/findPeaks_test.rs"]
         pub mod test_find_peaks;
+
+        #[path = "2956-find-common-elements-between-two-arrays/findIntersectionValues_test.rs"]
+        pub mod test_find_intersection_values;
 
         #[path = "2960-count-tested-devices-after-test-operations/countTestedDevices_test.rs"]
         mod test_count_tested_devices;
