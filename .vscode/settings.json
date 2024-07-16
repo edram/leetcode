@@ -8,5 +8,8 @@
   },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }
