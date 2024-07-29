@@ -9,6 +9,9 @@ pub mod leetcode {
     #[path = "0521-longest-uncommon-subsequence-i/findLUSlength.rs"]
     pub mod find_lu_slength;
 
+    #[path = "0682-baseball-game/calPoints.rs"]
+    pub mod cal_points;
+
     #[path = "0881-boats-to-save-people/numRescueBoats.rs"]
     pub mod num_rescue_boats;
 
@@ -79,6 +82,9 @@ pub mod leetcode {
 
         #[path = "0521-longest-uncommon-subsequence-i/findLUSlength_test.rs"]
         pub mod test_find_lu_slength;
+
+        #[path = "0682-baseball-game/calPoints_test.rs"]
+        pub mod test_cal_points;
 
         #[path = "0881-boats-to-save-people/numRescueBoats_test.rs"]
         pub mod test_num_rescue_boats;
