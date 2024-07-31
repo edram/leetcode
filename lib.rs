@@ -74,6 +74,9 @@ pub mod leetcode {
 
     #[path = "3038-maximum-number-of-operations-with-the-same-score-i/maxOperations.rs"]
     pub mod max_operations;
+
+    #[path = "3111-minimum-rectangles-to-cover-points/minRectanglesToCoverPoints.rs"]
+    pub mod min_rectangles_to_cover_points;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -148,5 +151,8 @@ pub mod leetcode {
 
         #[path = "3038-maximum-number-of-operations-with-the-same-score-i/maxOperations_test.rs"]
         pub mod test_max_operations;
+
+        #[path = "3111-minimum-rectangles-to-cover-points/minRectanglesToCoverPoints_test.rs"]
+        pub mod test_min_rectangles_to_cover_points;
     }
 }
