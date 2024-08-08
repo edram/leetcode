@@ -77,6 +77,9 @@ pub mod leetcode {
 
     #[path = "3111-minimum-rectangles-to-cover-points/minRectanglesToCoverPoints.rs"]
     pub mod min_rectangles_to_cover_points;
+
+    #[path = "3131-find-the-integer-added-to-array-i/addedInteger.rs"]
+    pub mod added_integer;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -154,5 +157,8 @@ pub mod leetcode {
 
         #[path = "3111-minimum-rectangles-to-cover-points/minRectanglesToCoverPoints_test.rs"]
         pub mod test_min_rectangles_to_cover_points;
+
+        #[path = "3131-find-the-integer-added-to-array-i/addedInteger_test.rs"]
+        pub mod test_added_integer;
     }
 }
