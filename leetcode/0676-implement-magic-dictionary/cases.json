@@ -1,0 +1,23 @@
+[
+  {
+    "dictionary": ["hello", "leetcode"],
+    "cases": [
+      {
+        "input": "hello",
+        "output": false
+      },
+      {
+        "input": "hhllo",
+        "output": true
+      },
+      {
+        "input": "hell",
+        "output": false
+      },
+      {
+        "input": "leetcoded",
+        "output": false
+      }
+    ]
+  }
+]
