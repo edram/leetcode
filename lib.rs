@@ -80,6 +80,9 @@ pub mod leetcode {
 
     #[path = "3131-find-the-integer-added-to-array-i/addedInteger.rs"]
     pub mod added_integer;
+
+    #[path = "3142-check-if-grid-satisfies-conditions/satisfiesConditions.rs"]
+    pub mod satisfies_conditions;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -160,5 +163,8 @@ pub mod leetcode {
 
         #[path = "3131-find-the-integer-added-to-array-i/addedInteger_test.rs"]
         pub mod test_added_integer;
+
+        #[path = "3142-check-if-grid-satisfies-conditions/satisfiesConditions_test.rs"]
+        pub mod test_satisfies_conditions;
     }
 }
