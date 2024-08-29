@@ -13,7 +13,7 @@ function satisfiesConditions(grid: number[][]): boolean {
       }
 
       if (col < colLength - 1) {
-        if (cell == grid[row][col - 1]) {
+        if (cell == grid[row][col + 1]) {
           return false;
         }
       }

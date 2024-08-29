@@ -16,5 +16,12 @@
   {
     "input": [[1], [2], [3]],
     "output": false
+  },
+  {
+    "input": [
+      [4, 4],
+      [4, 4]
+    ],
+    "output": false
   }
 ]
