@@ -83,6 +83,9 @@ pub mod leetcode {
 
     #[path = "3142-check-if-grid-satisfies-conditions/satisfiesConditions.rs"]
     pub mod satisfies_conditions;
+
+    #[path = "3248-snake-in-matrix/finalPositionOfSnake.rs"]
+    pub mod final_position_of_snake;
     #[cfg(test)]
     #[path = ""]
     mod rust {
@@ -166,5 +169,8 @@ pub mod leetcode {
 
         #[path = "3142-check-if-grid-satisfies-conditions/satisfiesConditions_test.rs"]
         pub mod test_satisfies_conditions;
+
+        #[path = "3248-snake-in-matrix/finalPositionOfSnake_test.rs"]
+        pub mod test_final_position_of_snake;
     }
 }

@@ -1,0 +1,16 @@
+[
+  {
+    "input": {
+      "n": 2,
+      "commands": ["RIGHT", "DOWN"]
+    },
+    "output": 3
+  },
+  {
+    "input": {
+      "n": 3,
+      "commands": ["DOWN", "RIGHT", "UP"]
+    },
+    "output": 1
+  }
+]
