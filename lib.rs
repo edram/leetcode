@@ -84,6 +84,9 @@ pub mod leetcode {
     #[path = "3142-check-if-grid-satisfies-conditions/satisfiesConditions.rs"]
     pub mod satisfies_conditions;
 
+    #[path = "3206-alternating-groups-i/numberOfAlternatingGroups.rs"]
+    pub mod number_of_alternating_groups;
+
     #[path = "3248-snake-in-matrix/finalPositionOfSnake.rs"]
     pub mod final_position_of_snake;
     #[cfg(test)]
@@ -169,6 +172,9 @@ pub mod leetcode {
 
         #[path = "3142-check-if-grid-satisfies-conditions/satisfiesConditions_test.rs"]
         pub mod test_satisfies_conditions;
+
+        #[path = "3206-alternating-groups-i/numberOfAlternatingGroups_test.rs"]
+        pub mod test_number_of_alternating_groups;
 
         #[path = "3248-snake-in-matrix/finalPositionOfSnake_test.rs"]
         pub mod test_final_position_of_snake;
