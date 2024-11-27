@@ -11,7 +11,7 @@ struct Case {
 }
 
 #[test]
-fn test_find_the_integer_added_to_array_i() {
+fn test_check_if_grid_satisfies_conditions() {
     let current_path = current_dir().unwrap().join(file!());
     let dir = current_path.parent().unwrap();
 
